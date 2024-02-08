@@ -1,6 +1,8 @@
 body{
     font-family: 'Dosis', sans-serif;
     font-family: 'Roboto', sans-serif;
+
+    background-color: #E3E4E4;
 }
 
 a{
@@ -63,9 +65,19 @@ header ul{
     border-radius: 10px;
 }
 
+article{
+    background-color: white;
+}
+
 .activités .wrapper{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 20px ;
+}
+
+.activités img{
+    grid-column: span 3;
 }
 
 
