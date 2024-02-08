@@ -2,3 +2,75 @@ body{
     font-family: 'Dosis', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
+
+a{
+    text-decoration: none;
+}
+
+.wrapper{
+   max-width: 1280px;
+   margin: 0 auto;
+
+}
+
+header a{
+    text-decoration: none;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    
+}
+
+header div{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+
+    list-style: none;
+}
+
+.hero{
+    background-image: url(../images/montagnes-alpes@1x\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+.hero .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    text-align: center;
+}
+
+.boite{
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.activités .wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+
+
